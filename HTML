@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Availability Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <table>
+            <thead>
+                <div id="legend">
+                    <span>Availability</span>
+                    <div class="bar">
+                        <span>0</span>
+                        <div id="legend-gradient">
+                            <span></span>
+                        </div>
+                        <span>5+</span>
+                    </div>
+                </div>
+
+                <tr>
+                    <th></th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                </tr>
+
+            </thead>
+            <tbody>
+
+                <tr class="half">
+                    <th class="time">12:00</th>
+                    <td class="available-1 sharp">One</td>
+                    <td class="available-2 sharp">Two</td>
+                    <td class="available-3 sharp">Three</td>
+                </tr>
+
+                <tr class="sharp">
+                    <th class="time">1:00</th>
+                    <td class="available-5 half">Five</td>
+                    <td class="available-2 half">Two</td>
+                    <td class="available-4 half">Four</td>
+                </tr>
+
+                <tr class="half">
+                    <th class="time">2:00</th>
+                    <td class="available-2 sharp">Two</td>
+                    <td class="available-4 sharp">Four</td>
+                    <td class="available-3 sharp">Three</td>
+                </tr>
+
+                <tr class="sharp">
+                    <th class="time">3:00</th>
+                    <td class="available-1 half">One</td>
+                    <td class="available-0 half">Zero</td>
+                    <td class="available-3 half">Three</td>
+                </tr>
+
+                <tr class="half">
+                    <th class="time">4:00</th>
+                    <td class="available-5 sharp">Five</td>
+                    <td class="available-4 sharp">Four</td>
+                    <td class="available-1 sharp">One</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </main>
+</body>
+
+</html>
